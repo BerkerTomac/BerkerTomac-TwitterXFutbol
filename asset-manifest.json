@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BerkerTomac-TwitterXFutbol/static/css/main.c147b1c0.css",
+    "main.js": "/BerkerTomac-TwitterXFutbol/static/js/main.a7bf817a.js",
+    "static/js/488.d5db204e.chunk.js": "/BerkerTomac-TwitterXFutbol/static/js/488.d5db204e.chunk.js",
+    "index.html": "/BerkerTomac-TwitterXFutbol/index.html",
+    "main.c147b1c0.css.map": "/BerkerTomac-TwitterXFutbol/static/css/main.c147b1c0.css.map",
+    "main.a7bf817a.js.map": "/BerkerTomac-TwitterXFutbol/static/js/main.a7bf817a.js.map",
+    "488.d5db204e.chunk.js.map": "/BerkerTomac-TwitterXFutbol/static/js/488.d5db204e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c147b1c0.css",
+    "static/js/main.a7bf817a.js"
+  ]
+}
