@@ -1,0 +1,130 @@
+.quiz-app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.question-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin: 1rem 0;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.question-card {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.option-button {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #495057;
+  transition: all 0.2s ease-in-out;
+}
+
+.option-button:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.option-button.selected {
+  background-color: #4263eb;
+  border-color: #364fc7;
+  color: white;
+}
+
+.ui-button {
+  margin-top: 20px;
+  padding: 14px 28px;
+  background-color: #4263eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ui-button:hover {
+  background-color: #364fc7;
+}
+
+.ui-button:disabled {
+  background-color: #dee2e6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.level-container {
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.level-title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.level-grade {
+  color: #FF69B4;
+  font-size: 150px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+
+.level-description {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.answer-key-button {
+  background-color: #98FB98;  /* Light green color */
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.answer-key-button:hover {
+  opacity: 0.9;
+}
+
+.answer-key-content {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
